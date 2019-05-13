@@ -10,6 +10,10 @@ PPM Read with DEBUG print RC channels on STM32F1 (bluepill)
 * PPM signal triggers interrupts and channel 1 and channel 2 are used for detecting edges (rising or falling) and update channel values.
 * Counter reset of channels is done hardware wise since it's recommended over software reset (multiple interrupts, interrupt priority etc.)
 
-Documented but expect grammatical errors and lot of unneeded comments left through code testing. 
-Everything was done with STM32Cube and Truestudio. 
-Part of project for reading PPM  from RX like Taranis X9D and to generate PPM back to trainer port. Cheap simulator dongles are based on the same  STM32F103C8T6 with the same principle.
+I couldn't find any similar project on STM32 not using Arduino IDE which reads PPM input done with interrupts and I didn't want my main while loop clogged with reading PPM inputs.
+
+Documented but expect grammatical errors and lot of unneeded comments left through code testing. Code is not perfect and should and will be updated in the future. 
+
+Everything was done with STM32Cube and Truestudio and I've supplied every file from the project folder needed.  
+Part of project for reading PPM  from RX like Taranis X9D and to generate PPM back to trainer port. Cheap simulator dongles are based on the same  STM32F103C8T6 with the same principle. All you have to do is just attach PPM and GND to STM32 from the back of Taranis/other TX.
+
