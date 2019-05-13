@@ -14,6 +14,6 @@ I couldn't find any similar project on STM32 not using Arduino IDE which reads P
 
 Documented but expect grammatical errors and lot of unneeded comments left through code testing. Code is not perfect and should and will be updated in the future. 
 
-Everything was done with STM32Cube and Truestudio and I've supplied every file from the project folder needed.  
-Part of project for reading PPM  from RX like Taranis X9D and to generate PPM back to trainer port. Cheap simulator dongles are based on the same  STM32F103C8T6 with the same principle. All you have to do is just attach PPM and GND to STM32 from the back of Taranis/other TX.
-![](https://wiki.stm32duino.com/images/a/ae/Bluepillpinout.gif)
+Documented but expect grammatical errors and lot of unneeded comments left through code testing. Everything was done with STM32Cube and Truestudio. Part of project for reading PPM from RX like Taranis X9D and to generate PPM back to trainer port. Cheap [simulator dongles](https://www.banggood.com/22-in-1-RC-Flight-Simulator-Cable-for-Realflight-G7-G6-G5-G4-p-950398.html?rmmds=search&cur_warehouse=CN) are based on the same STM32F103C8T6 with the same principle.
+
+![Datasheet STM32F103C](https://wiki.stm32duino.com/images/a/ae/Bluepillpinout.gif)
