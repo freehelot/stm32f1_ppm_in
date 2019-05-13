@@ -12,7 +12,8 @@ PPM Read with DEBUG print RC channels on STM32F1 (bluepill)
 
 I couldn't find any similar project on STM32 not using Arduino IDE which reads PPM input done with interrupts and I didn't want my main while loop clogged with reading PPM inputs.
 
-Documented but expect grammatical errors and lot of unneeded comments left through code testing. Code is not perfect and should and will be updated in the future. 
+Documented but expect grammatical errors and lot of unneeded comments left through code testing. Code is not perfect and should and will be updated in the future. If the code doesn't work, please first check your PPM signal length, number of channels and that everything is wired correctly, otherwise fell free to contact me or raise an issue. 
 
-Documented but expect grammatical errors and lot of unneeded comments left through code testing. Everything was done with STM32Cube and Truestudio. Part of project for reading PPM from RX like [Taranis](https://github.com/opentx/opentx/wiki/Taranis-I-O-ports) X9D and to generate PPM back to trainer port. Cheap [simulator dongles](https://www.banggood.com/22-in-1-RC-Flight-Simulator-Cable-for-Realflight-G7-G6-G5-G4-p-950398.html?rmmds=search&cur_warehouse=CN) are based on the same STM32F103C8T6 with the same principle.
+Everything was done with STM32Cube and Truestudio. Part of project for reading PPM from RX like [Taranis](https://github.com/opentx/opentx/wiki/Taranis-I-O-ports) X9D and to generate PPM back to trainer port. Cheap [simulator dongles](https://www.banggood.com/22-in-1-RC-Flight-Simulator-Cable-for-Realflight-G7-G6-G5-G4-p-950398.html?rmmds=search&cur_warehouse=CN) are based on the same STM32F103C8T6 with the same principle.
+
 
