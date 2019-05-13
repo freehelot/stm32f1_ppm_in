@@ -16,4 +16,4 @@ Documented but expect grammatical errors and lot of unneeded comments left throu
 
 Everything was done with STM32Cube and Truestudio and I've supplied every file from the project folder needed.  
 Part of project for reading PPM  from RX like Taranis X9D and to generate PPM back to trainer port. Cheap simulator dongles are based on the same  STM32F103C8T6 with the same principle. All you have to do is just attach PPM and GND to STM32 from the back of Taranis/other TX.
-
+![](https://wiki.stm32duino.com/images/a/ae/Bluepillpinout.gif)
